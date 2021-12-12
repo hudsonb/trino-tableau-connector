@@ -14,7 +14,7 @@ Note: In the steps below, replace `[username]` with your name (for example `/Use
 
 1. Create a directory for Tableau connectors. For example: `/Users/[username]/tableau_connectors`
 2. Put the contents of this repository (or clone it) into a folder in this directory. For example: `/Users/[username]/tableau_connector/trino`
-3. Run Tableau using the `-DConnectPluginsPath` command-line argument and pointing to your connector directory. For example: `/Applications/Tableau\ Desktop\[version].app/Contents`
+3. Run Tableau using the `-DConnectPluginsPath` command-line argument and pointing to your connector directory. For example: `/Applications/Tableau\ Desktop\ [version].app/Contents/MacOS/Tableau -DConnectPluginsPath=/Users/[username]/tableau_connectors`
 
 ## Running as a packaged connector (🌮)
 
